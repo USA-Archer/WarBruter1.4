@@ -1,0 +1,24 @@
+###############################################
+# __      __        ___          _     Ver1.4 #
+# \ \    / /_ _ _ _| _ )_ _ _  _| |_ ___ _ _  #
+#  \ \/\/ / _` | '_| _ \ '_| || |  _/ -_) '_| #
+#   \_/\_/\__,_|_| |___/_|  \_,_|\__\___|_|   #
+#                               by USA~Archer #
+###############################################
+
+http://USA-Archer.com/
+
+# WarBruter Ver1.4 by USA~Archer
+# This program bruteforces PvPGN accounts using a list/dictionary attack
+# Email: archer@usa-archer.com
+
+
+DISCLAIMER: Please do not use in military or secret service organizations or
+for illegal purposes.
+
+Error_log.txt contains attempts which did not receive a valid response from the server
+and should be retried.
+
+ERROR ATTEMPTS OUTPUT HERE AS SERVER, USERNAME, PASSWORD
+
+------- BEGIN ERROR_LOG.TXT OUTPUT ----------
