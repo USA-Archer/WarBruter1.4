@@ -262,7 +262,10 @@ for SERVER in SERVERS:
                 print ("#                               by USA-Archer #")  
                 print ("###############################################\n")   
                 print "---------------------------------- STATUS --------------------------------------"
-                print "WarBruter using IP Address: %s" % EXT_IP["ip"]
+                try:
+                    print "WarBruter using IP Address: %s" % EXT_IP["ip"]
+                except:
+                    pass
                 print "\nTrying ..."
                 print "Username: {USER}\nPassword: {PASSWORD}".format(USER=USER,PASSWORD=PASSWORD)
                 print "Server: %s\n" % (SERVER)
