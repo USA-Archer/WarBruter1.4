@@ -6,10 +6,8 @@
 #                               by USA-Archer #
 ###############################################
 
-# http://USA-Archer.com/
-#
 # WarBruter Ver1.4 by USA-Archer
-# Email: archer@usa-archer.com
+# 
 # This program bruteforces PvPGN accounts using a password list
 #
 #    Copyright (C) 2015 USA-Archer
@@ -52,9 +50,8 @@ print "Loading WarBruter... Please wait\n"
 
 # USED TO FETCH EXTERNAL IP ADDRESS
 try:
-    EXT_IP = json.loads(urllib.urlopen("https://api.ipify.org?format=json").read())
-
-except:
+    EXT_IP = json.loads(urllib.urlopen("http://api.ipify.org?format=json").read())
+except Exception as e:
     pass
 
 # BANNER
@@ -65,9 +62,7 @@ print ("#  \ \/\/ / _` | '_| _ \ '_| || |  _/ -_) '_| #")
 print ("#   \_/\_/\__,_|_| |___/_|  \_,_|\__\___|_|   #")
 print ("#                               by USA-Archer #")  
 print ("###############################################\n") 
-print "http://USA-Archer.com/\n"
 print "# WarBruter Ver1.4 by USA~Archer"
-print "# Email: archer@usa-archer.com"
 print "# This program bruteforces PvPGN accounts using a password list\n"
 print "DISCLAIMER: Please do not use in military or secret service organizations or"
 print "for illegal purposes.\n"
